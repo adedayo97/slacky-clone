@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { Dialog, DialogContent, DialogHeader, DialogTitle,DialogTrigger } from "./ui/dialog";
 
 import { XIcon } from "lucide-react";

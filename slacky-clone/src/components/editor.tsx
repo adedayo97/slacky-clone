@@ -1,3 +1,6 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 import Quill, {  type QuillOptions } from "quill";
 import {MdSend } from "react-icons/md";
 

@@ -17,12 +17,12 @@ export const AuthScreen = () => {
         <div className="h-full flex items-center justify-center bg-[#0e440e]">
         
 
-            <div className="md:h-auto md:w-[420px]">
+            <div className="md:h-auto md:w-[400px]">
                 {state === "signIn" ? <SignInCard  setState= {setState}/> : <SignUpCard setState= {setState} />}
 
 
             </div>
-            <Image src="/logo2.jpg" width={100} height={100} alt='logo'className="absolute right-8 md:right-10 top-5 md:top-5" />
+            <Image src="/logo2.jpg" width={70} height={70} alt='logo'  className="absolute left-1/2 top-20 transform -translate-x-1/2"/>
         </div>
     );
 };

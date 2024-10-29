@@ -38,7 +38,7 @@ export const WorkspaceSidebar = () => {
     }
     if (!workspace || !member) {
         return (
-            <div className="flex flex-col gap-y-2 bg-[#5E2C5F] h-full items-center justify-center">
+            <div className="flex flex-col gap-y-2 bg-[#097909] h-full items-center justify-center">
                 <AlertTriangle className="size-5  text-white" />
                 <p className="text-white text-sm">
                     Workspace not found
